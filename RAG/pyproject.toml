@@ -1,0 +1,15 @@
+[project]
+name = "rag"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.142.2",
+    "inngest>=0.5.19",
+    "llama-index-core>=0.14.25",
+    "llama-index-readers-file>=0.7.0",
+    "openai>=2.0.0",
+    "python-dotenv>=1.2.4",
+    "qdrant-client>=1.19.1",
+    "streamlit>=1.65.0",
+    "uvicorn>=0.54.0",
+]
